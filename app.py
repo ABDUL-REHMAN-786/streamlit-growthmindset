@@ -26,7 +26,7 @@ def footer():
         """
         <div style="background-color:#8B4513;padding:10px;border-radius:10px;text-align:center;color:white;">
             <h1><p>Developed by <strong>Abdul Rehman</strong></p></h1>
-            <p>Connect with me on <a style="color:white;" href="https://www.linkedin.com/in/abdul-rehman-0b0b7a1b4/">LinkedIn</a> | <a style="color:white;" href="
+            <p>Connect with me on <a style="color:white;" href="https://www.linkedin.com/in/abdulrehman0786/">LinkedIn</a> | <a style="color:white;" href="
         </div>
         """,
         unsafe_allow_html=True,
