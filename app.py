@@ -47,7 +47,7 @@ def home():
         unsafe_allow_html=True
     )
 
-    st.image("https://via.placeholder.com/800x400.png?text=Motivational+Image", use_column_width=True)
+    st.image("mindset.jpeg", use_column_width=True)
 
 
 # Journaling & Reflection
