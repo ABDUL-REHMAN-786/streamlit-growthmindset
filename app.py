@@ -13,8 +13,7 @@ def header():
         """
         <div style="background-color:#8B4513;padding:10px;border-radius:10px;text-align:center;color:white;">
             <h1>🌟 Growth Mindset App 🌟</h1>
-           <p>Welcome to your personal growth journey! Explore the features below to build resilience, positivity, and a growth mindset.</p>
-           
+            <p>Welcome to your personal growth journey! Explore the features below to build resilience, positivity, and a growth mindset.</p>
         </div>
         """,
         unsafe_allow_html=True,
@@ -26,17 +25,15 @@ def footer():
         """
         <div style="background-color:#8B4513;padding:10px;border-radius:10px;text-align:center;color:white;">
             <p>Developed by <strong>Abdul Rehman</strong></p>
-            <p>Connect with me on <a style="color:white;" href="https://www.linkedin.com/in/abdulrehman0786/">LinkedIn</a> | <a style="color:white;" href="
+            <p>Connect with me on <a style="color:white;" href="https://www.linkedin.com/in/abdulrehman0786/">LinkedIn</a></p>
         </div>
         """,
         unsafe_allow_html=True,
     )
 
 # Home Page
-
 def home():
     st.header("🏠 Home")
-    
     st.markdown(
         """
         <div style="text-align: center; font-size: 24px; font-weight: bold; color: #2E8B57;">
@@ -46,9 +43,7 @@ def home():
         """,
         unsafe_allow_html=True
     )
-
-    st.image("mindset.jpeg", use_column_width=True)
-
+    st.image("mindset.jpeg", use_container_width=True)  # Updated to use_container_width
 
 # Journaling & Reflection
 def journaling():
@@ -98,7 +93,7 @@ def visualization_board():
     uploaded_file = st.file_uploader("Upload an image or quote:", type=["jpg", "png", "jpeg"])
     if uploaded_file:
         image = Image.open(uploaded_file)
-        st.image(image, caption="Your motivational image", use_column_width=True)
+        st.image(image, caption="Your motivational image", use_container_width=True)  # Updated to use_container_width
 
 # Community Support
 def community_support():
