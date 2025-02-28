@@ -13,7 +13,7 @@ def header():
         """
         <div style="background-color:#8B4513;padding:10px;border-radius:10px;text-align:center;color:white;">
             <h1>🌟 Growth Mindset App 🌟</h1>
-           <h2> <p>Welcome to your personal growth journey! Explore the features below to build resilience, positivity, and a growth mindset.</p></h2>
+           <p>Welcome to your personal growth journey! Explore the features below to build resilience, positivity, and a growth mindset.</p>
            
         </div>
         """,
@@ -25,7 +25,7 @@ def footer():
     st.markdown(
         """
         <div style="background-color:#8B4513;padding:10px;border-radius:10px;text-align:center;color:white;">
-            <h1><p>Developed by <strong>Abdul Rehman</strong></p></h1>
+            <p>Developed by <strong>Abdul Rehman</strong></p>
             <p>Connect with me on <a style="color:white;" href="https://www.linkedin.com/in/abdulrehman0786/">LinkedIn</a> | <a style="color:white;" href="
         </div>
         """,
